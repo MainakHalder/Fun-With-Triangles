@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    background-color: rgb(127, 150, 255);
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    background-color:  rgb(5, 15, 60);
+    border-radius: 0.5rem;
+}
+.heading{
+    color: whitesmoke;
+    margin-bottom: 5rem; 
+    margin-top: 2rem;
+}
+.header{
+    color: whitesmoke;
+}
+.label-is{
+    margin: 1rem;
+    padding: 1 rem;
+    font-weight: bold;
+    font-size: larger;
+    color: whitesmoke
+}
+.heading-is{
+    margin: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+}
+.angle-is{
+    margin: 1rem;
+    display: block;  
+}
+.button-is{
+    margin: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    background-color:  rgb(5, 15, 60);
+    color: whitesmoke;
+}
+.output-is{
+    color: whitesmoke;
+}
