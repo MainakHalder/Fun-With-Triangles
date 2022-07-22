@@ -1,4 +1,4 @@
-const sides = document.querySelectorAll(".side-input");
+const sides = document.querySelectorAll("#side-input");
 const areaBtn = document.querySelector("#area-btn");
 const outputEl = document.querySelector("#output");
 function calculateArea(a,b){
@@ -7,6 +7,6 @@ function calculateArea(a,b){
 }
 function calculateAreaOfTriangle(){
     const areaOfTriangle = calculateArea(Number(sides[0].value), Number(sides[1].value));
-    outputEl.innerText = "The area of the triangle is" + areaOfTriangle ;
+    outputEl.innerText = "The area of the triangle is" +" "+ areaOfTriangle ;
 }
 areaBtn.addEventListener("click",calculateAreaOfTriangle);
