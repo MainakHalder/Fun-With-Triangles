@@ -8,3 +8,5 @@ The features of pages are-
 - It display a quiz to the user
 - It calculate the hypotenuse
 - It calculate the area
+
+### link - https://fun-with-triangles-project12.netlify.app/
