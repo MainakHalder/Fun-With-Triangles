@@ -1,7 +1,5 @@
 body{
-    margin: auto;
-    width: 50%;
-    padding: 1rem;
+    margin: 0;
     background-color: rgb(127, 150, 255);
 }
 .link{
@@ -44,4 +42,33 @@ body{
 }
 .output-is{
     color: whitesmoke;
+}
+.footer{
+    background-color: rgb(5, 15, 60);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-top-right-radius: 1rem;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+.footer .social-link{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer ul li{
+    display: inline;
+}
+main{
+    width: 70vw;
+    margin: auto;
 }
